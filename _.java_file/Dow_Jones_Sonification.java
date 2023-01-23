@@ -66,7 +66,7 @@ public class Dow_Jones_Sonification extends PApplet {
      */
     public void setup(){
         // Set the size and background color of the sketch
-        size(800, 800);
+        size(1600, 800);
         background(255);
 
         // Load sound files
