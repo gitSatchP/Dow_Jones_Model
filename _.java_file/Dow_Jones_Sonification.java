@@ -25,7 +25,7 @@ import java.io.IOException;
  *
  * @author Satchel Peterson
  */
-public class Music_Note_Sketch extends PApplet {
+public class Dow_Jones_Sonification extends PApplet {
 
     // Sound files for positive and negative music
     SoundFile positiveMusic;
