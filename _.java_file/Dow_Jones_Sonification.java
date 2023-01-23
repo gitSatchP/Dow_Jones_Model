@@ -290,7 +290,7 @@ public class Dow_Jones_Sonification extends PApplet {
      * Class for a musicNote object, used as icons to represent individual companies in
      * the Dow Jones
      */
-    class musicNote{
+    public class musicNote{
         // PShape object to store the shape of the music note
         PShape musicNote;
         // Variables to store the position of the music note
