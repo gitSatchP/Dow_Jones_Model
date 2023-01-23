@@ -136,14 +136,18 @@ public class Dow_Jones_Sonification extends PApplet {
             negativeMusic.stop();
         }
     }
-
+    
+    /**
+     * Method which draws the musical staff on the canvas by creating the individual lines of the 
+     * staff. The method is called within the draw() method so that the staff is redrawn each frame.
+    */
     public void createStaff(){
         // Create staff lines
-        int j = 250;
+        int lineSpacing = 250;
         for(int i = 0; i<5; i++){
             stroke(0);
-            line(76, j, 1524, j);
-            j += 49;
+            line(76, lineSpacing, 1524, lineSpacing);
+            lineSpacing += 49;
         }
         // Create start and end bar lines
         line(76, 250, 76, 446);
