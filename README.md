@@ -13,4 +13,4 @@ If you are interested in using this model, feel free to download the .pde files 
 jsonCompanies = loadJSONObject("dow30_companies.json");
 companyData = loadJSONObject("dow30_quotes.json");
 ```
-The file name should be inside the quotes within the parenthesis. *jsonCompanies* is the variable that refers to the file that contains the stock data points, and *companyData* is the variable that refers to the correspoinding company name to get the correct label for each music note icon.
+The file name should be inside the quotes within the parenthesis. *companyData* is the variable that refers to the file that contains the stock data points, and *jsonCompanies* is the variable that refers to the corresponding company name to get the correct label for each music note icon.
