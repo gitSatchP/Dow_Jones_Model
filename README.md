@@ -3,5 +3,14 @@ This is a program written in Processing 4 using Java that allows users to create
 
 I created this model in the summer of 2022 as part of my internship with S&P Global. 
 <br>
-## [Usage Example](https://youtu.be/uLiaaL0SDmk)
+## [Demonstration](https://youtu.be/uLiaaL0SDmk)
 [![Usage Example](https://img.youtube.com/vi/uLiaaL0SDmk/0.jpg)](https://youtu.be/uLiaaL0SDmk)
+
+This is a demonstration I created of how I use this model to understand more about the history of a company's performance on the market. In this demonstration I'm particularly focused on examining how changing the position (adding more shares, or changing the purchase date) of APPL changes the net result of the overall portfolio. 
+
+If you are interested in using this model, feel free to download the .pde files if you have Processing 4 or later installed on your computer. You just need to change the data source which should be in the format of a JSON file. In the *setup()* method of the code this is the lines: 
+```
+jsonCompanies = loadJSONObject("dow30_companies.json");
+companyData = loadJSONObject("dow30_quotes.json");
+```
+The file name should be inside the quotes within the parenthesis. *jsonCompanies* is the variable that refers to the file that contains the stock data points, and *companyData* is the variable that refers to the correspoinding company name to get the correct label for each music note icon.
